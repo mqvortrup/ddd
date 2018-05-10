@@ -1,14 +1,9 @@
 package qm.ddd;
 
-public class AnEntity {
+public class AnEntity extends Entity {
 
-    private final long id;
-
-    public AnEntity(long id) {
-        this.id = id;
+    AnEntity(long id) {
+        super(id);
     }
 
-    public long getId() {
-        return id;
-    }
 }
